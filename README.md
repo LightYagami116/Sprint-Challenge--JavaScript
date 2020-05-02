@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+  map is chainable meaning you can attach other methods onto it which is something you can't do with forEach due to the fact that it doesn't return anything.
+
 2. What is the difference between a function and a method?
+
+  Since functions are objects in JavaScript a method is basically an object reference to a function.
 
 3. What is closure?
 
+  A closure is a nested function that gives you access to an outer functions variables.
+
 4. Describe the four rules of the 'this' keyword.
 
+  1. What is the object calling?
+  2. How is it being called?
+  3. Am I being called in as a method?
+  4. What scope am I in?
+
 5. Why do we need super() in an extended class?
+
+  It's used to refer to the parent class and to access the parent's properties and methods.
 
 ## Project Set up
 
@@ -65,11 +78,11 @@ Your finished project must include all of the following requirements:
 **Pro tip for this challenge: If something seems like it isn't working locally, copy and paste your code up to codepen and take another look at the console.**
 
 ## Task 1: Objects and Arrays
-Test your knowledge of objects and arrays. 
+Test your knowledge of objects and arrays.
 * [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
-This challenge takes a look at callbacks and closures as well as scope. 
+This challenge takes a look at callbacks and closures as well as scope.
 * [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
