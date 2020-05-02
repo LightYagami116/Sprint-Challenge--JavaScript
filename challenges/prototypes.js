@@ -42,7 +42,7 @@ CuboidMaker.prototype.surfaceArea = function(){
   return 2 * (this.length * this.width + this.length * this.height + this.width * this.height);
 }
 
-const CuboidMaker({
+const CuboidMaker = new CuboidMaker({
   length: 4,
   width: 5,
   height: 5,
